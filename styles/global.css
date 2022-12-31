@@ -1,0 +1,122 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: #3B4252;
+  color: #D8DEE9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #88C0D0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #8FBCBB;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+footer {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn {
+  /* default for <button>, but useful for <a> */
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  /* create a small space when buttons wrap on 2 lines */
+  margin: 2px 0;
+
+  /* invisible border (will be colored on hover/focus) */
+  border: solid 2px transparent;
+  border-radius: 0.4em;
+
+  /* size comes from text & padding (no width/height) */
+  padding: 0.5em 1em;
+
+  /* make sure colors have enough contrast! */
+  color: #ffffff;
+  background-color: #9555af;
+}
+
+/* old-school "down" effect on clic + color tweak */
+.btn:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+
+/* inverse colors on mouse-over */
+.btn:hover {
+  color: #9555af;
+  border-color: currentColor;
+  background-color: white;
+}
+
+emoji {
+  overflow: hidden;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin: 0 0.1em;
+  background-size: 100% 100%;
+}
+
+.btn {
+  /* default for <button>, but useful for <a> */
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  /* create a small space when buttons wrap on 2 lines */
+  margin: 2px 0;
+
+  /* invisible border (will be colored on hover/focus) */
+  border: solid 2px transparent;
+  border-radius: 0.4em;
+
+  /* size comes from text & padding (no width/height) */
+  padding: 0.5em 1em;
+
+  /* make sure colors have enough contrast! */
+  color: #ffffff;
+  background-color: #9555af;
+}
+
+
+/* for each emoji */
+[data-emoji="f09b"] {
+  background-image: url('../public/images/github.svg');
+}
+
+code {
+  background-color: #8FBCBB;
+  color: #3B4252;
+  border-color: #9555af;
+  border-radius: 10px;
+  border-width: 4px;
+}
