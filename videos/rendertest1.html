@@ -6,27 +6,23 @@
     </head>
     <body>
         <!-- Sidebar -->
-        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
-            <button class="w3-bar-item w3-button w3-large"
-            onclick="w3_close()">Close &times;</button>
-            <a href="../index" class="w3-bar-item w3-button">Home</a>
-            <a href="docs/" class="w3-bar-item w3-button">Docs</a>
-          </div>
-          
-          <div id="main">
-          
-          <div class="w3-teal">
-            <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+        <div class="w3-sidebar --brand-color w3-bar-block" style="width:25%">
+            <h3 class="w3-bar-item">Video Hosting</h3>
+            <a href="index" class="w3-bar-item w3-button">Home</a>
+            <a href="/docs" class="w3-bar-item w3-button">Docs</a>
+         </div>
+         <!-- Page Content -->
+        <div style="margin-left:15%">
             <div class="w3-container w3-teal">
-            <h1>Render Test 1</h1>
+                <h1>Render Test 1</h1>
             </div>
-        </div>    
+        </div>  
         <div>
-            <video width="75%" controls autoplay>
+            <video width="65%" controls autoplay>
                 <source src="videofiles/videorendertest1.mp4" type="video/mp4">
                 <source src="videofiles/videorendertest1.ogg" type="video/ogg">
                 Your browser does not support HTML video.
-              </video>
+            </video>
         </div>
         <div class="description">
             <h2>Render Test 1 - Stock Video</h2>
