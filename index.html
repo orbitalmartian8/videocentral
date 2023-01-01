@@ -11,6 +11,8 @@
         <title>Video Hosting</title>
         <link rel="stylesheet" href="styles/global.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.45.0/dist/full.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <!-- Sidebar -->
@@ -29,10 +31,12 @@
         </div>
         <div>
             <h2>Recomended Videos</h2>
-            <div>
-                <img src="">
-                <p>Render Test 1 - Stock Video</p>
-                <p>by CJ (developer)  Published on 1/1/2023</p>
+            <div class="card w-96 bg-base-100 shadow-xl" href="videos/rendertest1"">
+                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title">Render Test 1 - Stock Video</h2>
+                    <p>by CJ (developer)  Published on 1/1/2023</p>
+                </div>
             </div>
         </div>
     </body>
