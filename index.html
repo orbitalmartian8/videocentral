@@ -1,43 +1,59 @@
 <html>
     <head>
-        <!-- <style>
-            :root {
-            --brand-color: #60A5FA;
-            --dark-color: #152D73;
-            --mid-color: #D4D4D8;
-            --light-color: #F8FAFC;
-              }
-        </style> -->
         <title>Video Hosting</title>
-        <link rel="stylesheet" href="styles/global.css">
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.45.0/dist/full.css" rel="stylesheet" type="text/css" />
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <body>
-        <!-- Sidebar -->
-        <div class="w3-sidebar --brand-color w3-bar-block" style="width:25%">
-            <h3 class="w3-bar-item">Video Hosting</h3>
-            <a href="index" class="w3-bar-item w3-button">Home</a>
-            <a href="/docs" class="w3-bar-item w3-button">Docs</a>
-         </div>
-         <!-- Page Content -->
-        <div style="margin-left:25%">
-        <div class="w3-container w3-teal">
-            <h1>Home</h1>
-        </div>
-        <div>
-            <p>Hello World! <a href="https://github.com/LinuxGamer/video-hosting">Here is the link for the repo. Help out if you can by either contributing or starring the project.</a>>a</p>
-        </div>
-        <div>
-            <h2>Recomended Videos</h2>
-            <div class="card w-96 bg-base-100 shadow-xl"><a href="videos/rendertest1">
-                <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h2 class="card-title">Render Test 1 - Stock Video</h2>
-                    <p>by CJ (developer)  Published on 1/1/2023</p>
-                </div>
-            </a></div>
-        </div>
+        <h1>Countdown to the First Release</h1>
+        <div class="hero min-h-screen" style="background-image: url(&quot;https://picsum.photos/id/1005/1600/1400&quot;);">
+            <div class="hero-overlay bg-opacity-60"></div> 
+            <div class="text-center hero-content text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">
+                      Hello There!
+                </h1> 
+                <p class="mb-5">
+                      Video Hosting is not yet ready. First working release is expected in:
+                </p>
+                <!-- <p class="mb-4">
+                    <b>Jan 26 2023 12:00:00</b>
+                </p> -->
+               <b><p class ="mb-5" id="countdown"></p></b>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 26, 2023 12:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+              </div>
+            </div>
+          </div>
     </body>
 </html>

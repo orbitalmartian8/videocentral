@@ -1,10 +1,16 @@
 body{
     background-color: #152D73;
 }
+
 p {
     color: #D4D4D8;
 }
 
 h1 {
     color: #60A5FA
+}
+
+.w3-header {
+    background-color: #2146b3;
+    color:#60A5FA
 }
