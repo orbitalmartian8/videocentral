@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>{TITLE}} | Video Hosting</title>
+        <link rel="stylesheet" href="styles/global.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <!-- Sidebar -->
+        <div class="w3-sidebar --brand-color w3-bar-block" style="width:15%">
+            <h3 class="w3-bar-item">Video Hosting</h3>
+            <a href="../index" class="w3-bar-item w3-button">Home</a>
+            <a href="/docs" class="w3-bar-item w3-button">Docs</a>
+         </div>
+         <!-- Page Content -->
+        <div style="margin-left:15%">
+            <div class="w3-container w3-teal">
+                <h1>{TITLE}</h1>
+            </div>
+        </div>  
+        <div style="margin-left:15%">
+            <video width="65%" controls autoplay>
+                <source src="videofiles/{videofilename}.mp4" type="video/mp4">
+                <source src="videofiles/{videofilename}.ogg" type="video/ogg">
+                <!-- Make sure to upload your video as a .mp4 into the videofiles directory!!! -->
+                Your browser does not support HTML video.
+            </video>
+        </div>
+        <div class="description-info" style="margin-left:18%">
+            <h2><b>{TITLE}</b></h2>
+            <div class="description" style="margin-left:5%">
+                <p><b>by {NAME}     Published on {day/month/year}</b></p>
+                <p>{DESCRIPTION}</p>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
