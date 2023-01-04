@@ -5,9 +5,18 @@
 # Video Hosting
 
 Video Hosting is a FOSS video hosting platform for anyone who wants to create or consume content that isn't caught up in biased sorting algorithms.
+
 ## Usage/Examples
 
 To use, you can either visit the [official hosted instance](https://linuxgamer.github.io/video-hosting), or self host your own.
+
+## Roadmap
+
+- Add recomendation algorithm
+
+- Add UI to upload content
+
+- Add comment section
 
 ## Authors
 
