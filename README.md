@@ -10,6 +10,10 @@ Video Hosting is a FOSS video hosting platform for anyone who wants to create or
 
 To use, you can either visit the [official hosted instance](https://linuxgamer.github.io/video-hosting), or self host your own.
 
+#### Self Hosting
+
+The easiest and recommended way to self host is to fork this repository and setup GitHub pages.
+
 ## Roadmap
 
 - Add recomendation algorithm
@@ -17,6 +21,12 @@ To use, you can either visit the [official hosted instance](https://linuxgamer.g
 - Add UI to upload content
 
 - Add comment section
+
+- Mobile browser support
+
+- Mobile App?
+
+- User selected themes (light/dark mode toggle)
 
 ## Authors
 
