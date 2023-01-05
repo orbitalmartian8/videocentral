@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: #152D73;
 }
 
@@ -13,4 +13,15 @@ h1 {
 .w3-header {
     background-color: #2146b3;
     color:#60A5FA
+} */
+
+
+p.content {
+    color: #D4D4D8;
+    font-family: open-sans;
+}
+
+.title {
+    color: #60A5FA;
+    font-family: tisa-sans
 }
