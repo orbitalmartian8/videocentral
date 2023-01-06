@@ -1,47 +1,42 @@
 <!doctype html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://cdn.daisyui.com/daisy-full.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.46.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
     <title>My Video Website</title>
   </head>
   <body>
-    <h1>My Video Website</h1>
-    <div class="daisy-container">
-      <div class="daisy-row">
-        <div class="daisy-col-3">
-          <h2>Video Category 1</h2>
-          <ul>
-            <li><a href="#">Video 1</a></li>
-            <li><a href="#">Video 2</a></li>
-            <li><a href="#">Video 3</a></li>
+    <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <a class="btn btn-ghost normal-case text-xl" href="/">daisyUI</a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Item 1</a></li>
+            <li tabindex="0">
+              <a>
+                Parent
+                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+              </a>
+              <ul class="p-2 bg-base-100">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+            <li><a>Item 3</a></li>
           </ul>
         </div>
-        <div class="daisy-col-3">
-          <h2>Video Category 2</h2>
-          <ul>
-            <li><a href="#">Video 4</a></li>
-            <li><a href="#">Video 5</a></li>
-            <li><a href="#">Video 6</a></li>
-          </ul>
-        </div>
-        <div class="daisy-col-3">
-          <h2>Video Category 3</h2>
-          <ul>
-            <li><a href="#">Video 7</a></li>
-            <li><a href="#">Video 8</a></li>
-            <li><a href="#">Video 9</a></li>
-          </ul>
+        <div class="dropdown dropdown-end">
+            <label tabindex="0" class="btn m-1">Click</label>
+            <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
+              <li><a>Item 2</a></li>
+            </ul>
         </div>
       </div>
-    </div>
-    <div class="daisy-container">
-      <div class="daisy-row">
-        <div class="daisy-col-12">
-          <h2>Featured Video</h2>
-          <video src="#" controls></video>
-        </div>
+      <div class="daisy-hidden-phone">
+        <p>This element will be hidden on screens larger than a phone size, and will be shown on phone-sized screens.</p>
       </div>
-    </div>
+      
   </body>
 </html>
