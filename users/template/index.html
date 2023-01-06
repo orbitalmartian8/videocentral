@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Video Hosting</title>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@1.25.4/dist/full.css" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />   
+        <link href="../../style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+            <div class="px-2 mx-2 navbar-start">
+              <span class="text-lg font-bold"><a href="/video-hosting">
+                      Video Hosting
+                    </a></span>
+            </div> 
+            <div class="hidden px-2 mx-2 navbar-center lg:flex">
+              <div class="flex items-stretch">
+                <a class="btn btn-ghost btn-sm rounded-btn" href="/video-hosting">
+                  <div class="tooltip tooltip-bottom" data-tip="Visit our Homepage">Home</div>
+                      </a> 
+                <a class="btn btn-disabled btn-ghost btn-sm rounded-btn">
+                  <div class="tooltip tooltip-bottom" data-tip="View your Subscriptions">Subscriptions {NOT IMPLEMENTED}</div>
+                      </a> 
+                <a class="btn btn-disabled btn-ghost btn-sm rounded-btn">
+                  <div class="tooltip tooltip-bottom" data-tip="View your Library which has playlists and history, etc">Library {NOT IMPLEMENTED}</div>
+                      </a> 
+                <a class="btn btn-ghost btn-sm rounded-btn" href="/docs">
+                  <div class="tooltip tooltip-bottom" data-tip="View our Documentation">Docs</div>
+                      </a>
+              </div>
+            </div> 
+            <div class="navbar-end">
+              <button class="btn btn-disabled btn-square btn-ghost">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">     
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>                     
+                </svg>
+              </button> 
+              <button class="btn btn-disabled btn-square btn-ghost">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">             
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>             
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="card card-bordered">
+            <div class="card-title" style="text-align:center; font-size:30px">
+                <p>Template</p>
+            </div>
+            <div class="card-content" style="text-align:center;">
+                <p>I am Template, a user created to provide a template for new creators.</p>
+            </div>
+          </div>
+          <div class="tabs">
+            <a class="tab tab-bordered">About</a> 
+            <a class="tab tab-bordered tab-active">My Videos</a> 
+            <a class="tab tab-bordered">My Playlists</a>
+            <a class="tab tab-bordered">Recommendations</a>
+          </div>
+          <div class="grid grid-cols-4 gap-1">
+            <div class="card card-bordered">
+                <figure>
+                    <video>
+                        <source src="videos/videofiles/videorendertest1.mp4" type="video/mp4">
+                        <source src="videos/videofiles/videorendertest1.ogg" type="video/ogg">
+                        Your browser does not support HTML video.
+                    </video>
+                </figure> 
+                <div class="card-body">
+                  <h2 class="card-title">Render Test 1 - Stock Video
+                    <div class="badge mx-2 badge-secondary">NEW</div>
+                  </h2> 
+                  <p></p> 
+                  <div class="justify-end card-actions">
+                    <button class="btn btn-secondary"><a href="videos/rendertest1">Watch</a></button>
+                  </div>
+                </div>
+            </div> 
+          </div>
+    </body>
+</html>
