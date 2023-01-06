@@ -8,7 +8,6 @@ body {
     background-color: #333;
     color: white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0 20px;
   }
@@ -38,6 +37,38 @@ body {
   
   header li a:hover {
     background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  header .menu-button {
+    display: none;
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+    header ul {
+      display: none;
+    }
+    header ul.show {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #333;
+      }
+    header li {
+      margin: 10px 0;
+    }
+    header li a {
+      display: block;
+      padding: 10px;
+    }
+    header .menu-button {
+      display: block;
+      align-self: flex-end;
+    }
   }
   
   main {
