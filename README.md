@@ -2,13 +2,13 @@
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
 
-# Video Hosting
+# VideoCentral
 
-Video Hosting is a FOSS video hosting platform for anyone who wants to create or consume content that isn't caught up in biased sorting algorithms.
+VideoCentral is a FOSS video hosting platform for anyone who wants to create or consume content that isn't caught up in biased sorting algorithms.
 
 ## Usage/Examples
 
-To use, you can either visit the [official hosted instance](https://linuxgamer.github.io/video-hosting), or self host your own.
+To use, you can either visit the [official hosted instance](https://linuxgamer.github.io/videocentral), or self host your own.
 
 #### Self Hosting
 
@@ -16,7 +16,7 @@ The easiest and recommended way to self host is to fork this repository and setu
 
 ## Roadmap
 
-- Add recomendation algorithm
+<!-- - Add recomendation algorithm -->
 
 - Add UI to upload content
 
@@ -29,7 +29,7 @@ The easiest and recommended way to self host is to fork this repository and setu
 - User selected themes (light/dark mode toggle)
 
 ## Project
-Who, What, Why?
+*Who, What, Why?*
 
 Project is a character created by [@LinuxGamer](https://www.github.com/LinuxGamer) to provide a beginner/user friendly platform to deliver templates, tutorials and documentation.
 
