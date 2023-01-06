@@ -2,7 +2,8 @@
     <head>
         <title>Video Hosting</title>
         <link href="https://cdn.jsdelivr.net/npm/daisyui@1.25.4/dist/full.css" rel="stylesheet" type="text/css" />
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />      
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />   
+        <link href="/style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
@@ -14,16 +15,16 @@
             <div class="hidden px-2 mx-2 navbar-center lg:flex">
               <div class="flex items-stretch">
                 <a class="btn btn-ghost btn-sm rounded-btn" href="/video-hosting">
-                        Home
+                  <div class="tooltip tooltip-bottom" data-tip="Visit our Homepage">Home</div>
                       </a> 
-                <a class="btn btn-ghost btn-sm rounded-btn">
-                        Subscriptions {NOT IMPLEMENTED}
+                <a class="btn btn-disabled btn-ghost btn-sm rounded-btn">
+                  <div class="tooltip tooltip-bottom" data-tip="View your Subscriptions">Subscriptions {NOT IMPLEMENTED}</div>
                       </a> 
-                <a class="btn btn-ghost btn-sm rounded-btn">
-                        Library {NOT IMPLEMENTED}
+                <a class="btn btn-disabled btn-ghost btn-sm rounded-btn">
+                  <div class="tooltip tooltip-bottom" data-tip="View your Library which has playlists and history, etc">Library {NOT IMPLEMENTED}</div>
                       </a> 
                 <a class="btn btn-ghost btn-sm rounded-btn" href="/docs">
-                        Docs
+                  <div class="tooltip tooltip-bottom" data-tip="View our Documentation">Docs</div>
                       </a>
               </div>
             </div> 
