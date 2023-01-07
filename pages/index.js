@@ -20,6 +20,7 @@ export default function Home() {
         <p className={styles.description}>
           A FOSS video hosting platform.
         </p>
+
       </main>
 
       <footer>
