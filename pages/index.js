@@ -35,6 +35,7 @@ export default function Home() {
     class="video-js"
     controls
     preload="auto"
+    width="75%"
     poster="//vjs.zencdn.net/v/oceans.png"
     data-setup='{}'>
   <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
