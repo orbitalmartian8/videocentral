@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       {isMobile() ? (
         <>
-          <div className={styles.navbarBrand}><a href="/">VideoCentral</a></div>
+          <div className={styles.navbarBrand}><a href="/" className={styles.navbarItem}>VideoCentral</a></div>
           <button onClick={toggleMenu} className={styles.menuButton}>
             Menu
           </button>
