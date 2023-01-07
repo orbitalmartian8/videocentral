@@ -8,19 +8,47 @@ export default function Home() {
       <Head>
         <title>VideoCentral</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://unpkg.com/video.js@7/dist/video-js.min.css"
+          rel="stylesheet"
+        />
+        <link
+          href="https://unpkg.com/@videojs/themes@1/dist/city/index.css"
+          rel="stylesheet"
+        />
       </Head>
       <header>
         <Navbar />
       </header>
       <main>
-        {/* <Image src="../assets/panda1.png" alt="panda mascot placeholder" /> */}
+        {/* <Image src="../assets/panda1.png" alt="mascot placeholder" /> */}
         <h1 className={styles.title}>
           Welcome to <a href="https://github.com/LinuxGamer/videocentral" target="_blank" rel="noreferrer">VideoCentral</a>
         </h1>
 
         <p className={styles.description}>
-          A FOSS video hosting platform.
+          A FOSS video hosting platform. !Video Testing below!
         </p>
+
+<video
+    id="my-player"
+    class="video-js"
+    controls
+    preload="auto"
+    width="75%"
+    poster="//vjs.zencdn.net/v/oceans.png"
+    data-setup='{}'>
+  <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+  <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
+  <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a
+    web browser that
+    <a href="https://videojs.com/html5-video-support/" target="_blank">
+      supports HTML5 video
+    </a>
+  </p>
+</video>
 
       </main>
 
