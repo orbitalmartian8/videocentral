@@ -29,10 +29,7 @@ export default function Home() {
         <p className={styles.description}>
           A FOSS video hosting platform.
         </p>
-
-<video class="video-js vjs-theme-city" src="https://youtube.com/watch?v=_cMxraX_5RE"></video>
-
-  <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+        <video class="video-js vjs-theme-city" src="https://youtube.com/watch?v=_cMxraX_5RE"></video>
 
       </main>
 
