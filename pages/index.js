@@ -13,6 +13,7 @@ export default function Home() {
         <Navbar />
       </header>
       <main>
+        {/* <Image src="../assets/panda1.png" alt="panda mascot placeholder" /> */}
         <h1 className={styles.title}>
           Welcome to <a href="https://github.com/LinuxGamer/videocentral" target="_blank" rel="noreferrer">VideoCentral</a>
         </h1>
