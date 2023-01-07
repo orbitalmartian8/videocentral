@@ -29,28 +29,25 @@ export default function Home() {
         <p className={styles.description}>
           A FOSS video hosting platform.
         </p>
-        <video class="video-js vjs-theme-city" src="Archive/users/Project/videos/videofiles/videorendertest1.mp4"></video>
-
-  <video
-    id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    width="640"
-    height="264"
-    poster="MY_VIDEO_POSTER.jpg"
-    data-setup="{}"
-  >
-    <source src="Archive/users/Project/videos/videofiles/videorendertest1.mp4" type="video/mp4" />
-    <source src="Archive/users/Project/videos/videofiles/videorendertest1.webm" type="video/webm" />
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a
+        <video
+          id="my-video"
+          class="video-js"
+          controls
+          autoplay
+          preload="auto"
+          width="640"
+          height="264"
+          // poster="MY_VIDEO_POSTER.jpg"
+          data-setup="{}"
+        >
+            <source src="Archive/users/Project/videos/videofiles/videorendertest1.mp4" type="video/mp4" />
+            <source src="Archive/users/Project/videos/videofiles/videorendertest1.webm" type="video/webm" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
       web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank"
-        >supports HTML5 video</a
-      >
-    </p>
-  </video>
+              <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+            </p>
+        </video>
 
   <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
 
