@@ -27,29 +27,27 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          A FOSS video hosting platform.
+          A FOSS video hosting platform. !Video Testing below!
         </p>
-        <video
-          id="my-video"
-          class="video-js"
-          controls
-          autoplay
-          preload="auto"
-          width="640"
-          height="264"
-          // poster="MY_VIDEO_POSTER.jpg"
-          data-setup="{}"
-        >
-            <source src="Archive/users/Project/videos/videofiles/videorendertest1.mp4" type="video/mp4" />
-            <source src="Archive/users/Project/videos/videofiles/videorendertest1.webm" type="video/webm" />
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider upgrading to a
-      web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-            </p>
-        </video>
 
-  <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+<video
+    id="my-player"
+    class="video-js"
+    controls
+    preload="auto"
+    poster="//vjs.zencdn.net/v/oceans.png"
+    data-setup='{}'>
+  <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+  <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
+  <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a
+    web browser that
+    <a href="https://videojs.com/html5-video-support/" target="_blank">
+      supports HTML5 video
+    </a>
+  </p>
+</video>
 
       </main>
 
