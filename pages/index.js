@@ -8,7 +8,14 @@ export default function Home() {
       <Head>
         <title>VideoCentral</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+        <link
+          href="https://unpkg.com/video.js@7/dist/video-js.min.css"
+          rel="stylesheet"
+        />
+        <link
+          href="https://unpkg.com/@videojs/themes@1/dist/city/index.css"
+          rel="stylesheet"
+        />
       </Head>
       <header>
         <Navbar />
@@ -23,27 +30,7 @@ export default function Home() {
           A FOSS video hosting platform.
         </p>
 
-<video
-    id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    width="640"
-    height="264"
-    poster="MY_VIDEO_POSTER.jpg"
-    data-setup="{}"
-    src="https://youtu.be/eRsGyueVLvQ"
-  >
-    <source src="https://youtu.be/eRsGyueVLvQ" type="video" />
-    <source src="https://youtu.be/eRsGyueVLvQ" type="video" />
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a
-      web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank"
-        >supports HTML5 video</a
-      >
-    </p>
-  </video>
+<video class="video-js vjs-theme-city" src="https://youtube.com/watch?v=_cMxraX_5RE"></video>
 
   <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
 
