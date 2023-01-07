@@ -21,7 +21,7 @@ export default function Home() {
         <Navbar />
       </header>
       <main>
-        {/* <Image src="../assets/panda1.png" alt="panda mascot placeholder" /> */}
+        {/* <Image src="../assets/panda1.png" alt="mascot placeholder" /> */}
         <h1 className={styles.title}>
           Welcome to <a href="https://github.com/LinuxGamer/videocentral" target="_blank" rel="noreferrer">VideoCentral</a>
         </h1>
@@ -29,7 +29,7 @@ export default function Home() {
         <p className={styles.description}>
           A FOSS video hosting platform.
         </p>
-        <video class="video-js vjs-theme-city" src="https://youtube.com/watch?v=_cMxraX_5RE"></video>
+        <video class="video-js vjs-theme-city" src="Archive/users/Project/videos/videofiles/videorendertest1.mp4"></video>
 
       </main>
 
