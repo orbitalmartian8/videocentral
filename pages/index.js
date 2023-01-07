@@ -32,9 +32,10 @@ export default function Home() {
     height="264"
     poster="MY_VIDEO_POSTER.jpg"
     data-setup="{}"
+    src="https://youtu.be/eRsGyueVLvQ"
   >
-    <source src="https://youtu.be/eRsGyueVLvQ" type="video/mp4" />
-    <source src="https://youtu.be/eRsGyueVLvQ" type="video/webm" />
+    <source src="https://youtu.be/eRsGyueVLvQ" type="video" />
+    <source src="https://youtu.be/eRsGyueVLvQ" type="video" />
     <p class="vjs-no-js">
       To view this video please enable JavaScript, and consider upgrading to a
       web browser that
