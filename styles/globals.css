@@ -2,8 +2,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Venera", Calibri, Tahoma, sans-serif;
+  /* font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+body {
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
 a {
@@ -36,3 +40,4 @@ button {
   padding: 0.5rem 1rem;
   font-weight: bold;
 }
+

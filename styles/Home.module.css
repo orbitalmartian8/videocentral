@@ -83,6 +83,32 @@
   height: 1em;
 }
 
+#hero {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#hero-bg {
+  background: url(../assets/Background-1.png) no-repeat center center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
