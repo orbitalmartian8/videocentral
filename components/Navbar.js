@@ -37,9 +37,9 @@ const Navbar = () => {
           {isMenuOpen && (
             <div className={styles.navbarMenu}>
               <a className={styles.navbarItem} href="/">Home</a>
-              <a className={styles.navbarItem} href="#">Popular</a>
-              <a className={styles.navbarItem} href="#">Search</a>
-              <a className={styles.navbarItem} href="#">Docs</a>
+              <a className={styles.navbarItem} href="/popular">Popular</a>
+              <a className={styles.navbarItem} href="/search">Search</a>
+              <a className={styles.navbarItem} href="https://linuxgamer.github.io/videocentral">Docs</a>
               <div className={styles.navbarItem}>
                 <a href="https://github.com/LinuxGamer/videocentral" target="_blank" rel="noreferrer">
                   <IconContext.Provider value={{color: "white", style: { verticalAlign: "middle" },}}>
