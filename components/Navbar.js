@@ -36,6 +36,19 @@ const Navbar = () => {
               <a className={styles.navbarItem} href="#">Home</a>
               <a className={styles.navbarItem} href="#">Popular</a>
               <a className={styles.navbarItem} href="#">Search</a>
+              <a className={styles.navbarItem} href="#">Docs</a>
+              <div className={styles.navbarItem}>
+                <a href="https://github.com/LinuxGamer/videocentral" target="_blank" rel="noreferrer">
+                  <IconContext.Provider value={{color: "white", style: { verticalAlign: "middle" },}}>
+                    <FaGithub aria-label="GitHub" />
+                  </IconContext.Provider>
+                </a>
+                <a href="https://github.com/LinuxGamer/videocentral" target="_blank" rel="noreferrer" className={styles.navbarIcon}>
+                  <IconContext.Provider value={{color: "white", style: { verticalAlign: "middle" },}}>
+                    <FaGithub aria-label="GitHub" />
+                  </IconContext.Provider>
+                </a>
+              </div>
             </div>
           )}
         </>

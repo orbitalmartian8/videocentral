@@ -33,7 +33,7 @@ export default function Home() {
 
 
 
-        <video id="my_video_1" class="video-js vjs-theme-city" width="85%" controls preload="none" autoplay="true" poster='http://video-js.zencoder.com/oceans-clip.jpg' data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+        <video id="my_video_1" class="video-js vjs-theme-city" width="85%" controls preload="none" autoPlay="false" poster='http://video-js.zencoder.com/oceans-clip.jpg' data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
           <source src="https://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
           <source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
         </video>
