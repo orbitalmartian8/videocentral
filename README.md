@@ -34,7 +34,7 @@ The easiest and recommended way to self host is to fork this repository and setu
 Project is a character created by [@LinuxGamer](https://www.github.com/LinuxGamer) to provide a beginner/user friendly platform to deliver templates, tutorials and documentation.
 
 ## Contributing
-
+To contribute 
 
 ## Authors
 

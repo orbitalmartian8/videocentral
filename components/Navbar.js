@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/Navbar.module.css';
+import { FaGithub } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 const Navbar = () => {
   const [viewportWidth, setViewportWidth] = useState(0);
@@ -32,8 +34,8 @@ const Navbar = () => {
           {isMenuOpen && (
             <div className={styles.navbarMenu}>
               <a className={styles.navbarItem} href="#">Home</a>
-              <a className={styles.navbarItem} href="#">About</a>
-              <a className={styles.navbarItem} href="#">Contact</a>
+              <a className={styles.navbarItem} href="#">Popular</a>
+              <a className={styles.navbarItem} href="#">Search</a>
             </div>
           )}
         </>
@@ -42,10 +44,10 @@ const Navbar = () => {
           <div className={styles.navbarBrand}><a href="/" className={styles.navbarItem}>VideoCentral</a></div>
           <div className={styles.navbarMenu}>
             <a className={styles.navbarItem} href="#">Home</a>
-            <a className={styles.navbarItem} href="#">About</a>
-            <a className={styles.navbarItem} href="#">Contact</a>
-            <a className={styles.navbarItem} href="#">Blog</a>
-            <a className={styles.navbarItem} href="#">Resources</a>
+            <a className={styles.navbarItem} href="#">Popular</a>
+            <a className={styles.navbarItem} href="#">Search</a>
+            <a className={styles.navbarItem} href="#">Docs</a>
+            <a className={styles.navbarItem} href="https://github.com/LinuxGamer/videocentral" target="_blank" rel="noreferrer"><IconContext.Provider value={{color: "white", style: { verticalAlign: "middle" },}}><FaGithub aria-label="GitHub" /></IconContext.Provider></a>
           </div>
         </>
       )}
